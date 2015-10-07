@@ -21,8 +21,8 @@ I have provided `js/adapter.js` to interface with the DOM. You should not have t
 | `GAME.hasItem(id)` | Returns `true` or `false` depending on whether the DOM has an element with that `id` or not |
 | `GAME.removeElement(id)` | Removes the element with id `id` |
 | `GAME.removeHandler(id, handler)` | Removes the provided handler from the element with the given `id` |
-| `GAME.addHander(id, handler)` | Adds the provided handler from the element with the given `id` |
-| `GAME.changeHander(id, oldHandler, newHandler)` | Removes the old handler and adds the new handler to the element with the given `id` |
+| `GAME.addHandler(id, handler)` | Adds the provided handler from the element with the given `id` |
+| `GAME.changeHandler(id, oldHandler, newHandler)` | Removes the old handler and adds the new handler to the element with the given `id` |
 | `GAME.setText(id, text)` | Sets the text of the element with id `id`, regardless whether it's a button or text element |
 
 ## Requirements
