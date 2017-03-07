@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    // The world is yours to explore!
-
+    // The world is yours to explo
+    GAME.addButton(characterJump, Jump)
 });
